@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">modul3</string>
+    <string name="data" >
+        \nNama\t\t\t\t\t\t\t\t\t\t\t\t\t\t : Fahdah Ayu Novita Sari
+       \n\nNIM\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t : 210441100145
+        \n\nTempat,Tanggal Lahir\t\t : Sidoarjo, 01 Juli 2003
+        \n\nJenis Kelamin\t\t\t\t\t\t\t\t : Perempuan
+        \n\nFakultas\t\t\t\t\t\t\t\t\t\t\t\t : Teknik
+        \n\nProdi\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t : Sistem Informasi
+        \n\nAlamat\t\t\t\t\t\t\t\t\t\t\t\t\t : Sidoarjo
+    </string>
+</resources>
