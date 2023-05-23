@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home.DisneyFragment">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" >
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/carddisney1"
+             android:layout_width="match_parent"
+             android:layout_height="250dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="16dp"
+             android:layout_marginBottom="10dp"
+             android:background="#ffffff"
+             app:cardCornerRadius="10dp"
+             app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="300dp"
+                   android:layout_height="175dp"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginTop="7dp"
+                   android:background="#ffffff"
+                   android:orientation="vertical">
+
+                  <ImageView
+                      android:id="@+id/imagedisney1"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginHorizontal="3dp"
+                      android:src="@drawable/d1" />
+               </LinearLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                  <TextView
+                      android:id="@+id/titledisney1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="10dp"
+                      android:layout_marginTop="7dp"
+                      android:layout_marginEnd="3dp"
+                      android:fontFamily="@font/fredoka_one"
+                      android:text="Beauty And The Beast"
+                      android:textColor="@color/black"
+                      android:textSize="20sp" />
+
+                  <TextView
+                      android:id="@+id/descdisney1"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/titledisney1"
+                      android:layout_marginHorizontal="3dp"
+                      android:layout_marginStart="10dp"
+                      android:layout_marginTop="3dp"
+                      android:layout_marginEnd="3dp"
+                      android:fontFamily="@font/doppio_one"
+                      android:text="Cerita disney"
+                      android:textColor="@color/black"
+                      android:textSize="15sp" />
+
+                  <Button
+                      android:id="@+id/Buttondisney1"
+                      android:layout_width="100dp"
+                      android:layout_height="45dp"
+                      android:layout_alignParentStart="true"
+                      android:layout_alignParentEnd="true"
+                      android:layout_marginStart="240dp"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginEnd="10dp"
+                      android:text="Baca" />
+
+               </RelativeLayout>
+
+            </LinearLayout>
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/carddisney2"
+             android:layout_width="match_parent"
+             android:layout_height="250dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="16dp"
+             android:layout_marginBottom="10dp"
+             android:background="#ffffff"
+             app:cardCornerRadius="10dp"
+             app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="300dp"
+                   android:layout_height="175dp"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginTop="7dp"
+                   android:background="#ffffff"
+                   android:orientation="vertical">
+
+                  <ImageView
+                      android:id="@+id/imagedisney2"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginHorizontal="3dp"
+                      android:src="@drawable/d2" />
+               </LinearLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                  <TextView
+                      android:id="@+id/titledisney2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="10dp"
+                      android:layout_marginTop="7dp"
+                      android:layout_marginEnd="3dp"
+                      android:fontFamily="@font/fredoka_one"
+                      android:text="Cinderella"
+                      android:textColor="@color/black"
+                      android:textSize="20sp" />
+
+                  <TextView
+                      android:id="@+id/descdisney2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/titledisney2"
+                      android:layout_marginHorizontal="3dp"
+                      android:layout_marginStart="10dp"
+                      android:layout_marginTop="3dp"
+                      android:layout_marginEnd="3dp"
+                      android:fontFamily="@font/doppio_one"
+                      android:text="Cerita Disney"
+                      android:textColor="@color/black"
+                      android:textSize="15sp" />
+
+                  <Button
+                      android:id="@+id/Buttondisney2"
+                      android:layout_width="100dp"
+                      android:layout_height="45dp"
+                      android:layout_alignParentStart="true"
+                      android:layout_alignParentEnd="true"
+                      android:layout_marginStart="240dp"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginEnd="10dp"
+                      android:text="Baca" />
+
+               </RelativeLayout>
+
+            </LinearLayout>
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:id="@+id/carddisney3"
+             android:layout_width="match_parent"
+             android:layout_height="250dp"
+             android:layout_marginStart="16dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginEnd="16dp"
+             android:layout_marginBottom="10dp"
+             android:background="#ffffff"
+             app:cardCornerRadius="10dp"
+             app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="300dp"
+                   android:layout_height="175dp"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginTop="7dp"
+                   android:background="#ffffff"
+                   android:orientation="vertical">
+
+                  <ImageView
+                      android:id="@+id/imagedisney3"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginHorizontal="3dp"
+                      android:src="@drawable/d3" />
+               </LinearLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                  <TextView
+                      android:id="@+id/titledisney3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="10dp"
+                      android:layout_marginTop="7dp"
+                      android:layout_marginEnd="3dp"
+                      android:fontFamily="@font/fredoka_one"
+                      android:text="Snow White"
+                      android:textColor="@color/black"
+                      android:textSize="20sp" />
+
+                  <TextView
+                      android:id="@+id/descdisney3"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/titledisney3"
+                      android:layout_marginHorizontal="3dp"
+                      android:layout_marginStart="10dp"
+                      android:layout_marginTop="3dp"
+                      android:layout_marginEnd="3dp"
+                      android:fontFamily="@font/doppio_one"
+                      android:text="Cerita Disney"
+                      android:textColor="@color/black"
+                      android:textSize="15sp" />
+
+                  <Button
+                      android:id="@+id/Buttondisney3"
+                      android:layout_width="100dp"
+                      android:layout_height="45dp"
+                      android:layout_alignParentStart="true"
+                      android:layout_alignParentEnd="true"
+                      android:layout_marginStart="240dp"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginEnd="10dp"
+                      android:text="Baca" />
+
+               </RelativeLayout>
+
+            </LinearLayout>
+         </androidx.cardview.widget.CardView>
+
+      </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>
